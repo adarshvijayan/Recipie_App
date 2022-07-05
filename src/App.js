@@ -43,7 +43,7 @@ const getSearch =(e)=>{
     <div className="App">
       <form className='search-form' onSubmit={getSearch}>
         <input className='serach-bar' type="text" value={search} onChange={updateSearch}/>
-        <button className='serach-button' type='submit'>search</button>
+        <button className='serach-button' type='submit'>Search</button>
         
       </form>
       <div className='recipie'>
